@@ -1,0 +1,260 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.logo{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding-left: 70px;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:purple;
+}
+
+.span{
+    color: purple;
+}
+
+.btn{
+    padding: 10px 15px;
+    margin-right: 30px;
+    border-radius: 20px;
+    font-size: 20px;
+    border-style: none;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+
+.about{
+    margin-top: 200px;
+    margin-left: 80px;
+}
+
+.about-text h4{
+    color: white;
+    padding: 5px 0px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.about-text h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.about-text h3{
+    color: white;
+    font-weight: lighter;
+    padding: 5px 0px;
+    letter-spacing: 2px;
+}
+
+.newsletter{
+    width: 380px;
+    margin-top: 15px;
+    padding-right: 12px;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 15px 15px;
+    border: 1px solid red;
+    border-radius: 25px;
+    
+}
+
+.newsletter form input:last-child{
+    position: absolute;
+    background-color: purple;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    top: 6px;
+    right: 20px;
+    
+}.about-12{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+}
+
+.about-12 img{
+    height: 500px;
+    width: 500px;
+}
+
+.about-text11{
+    width: 500px;
+    padding-left: 40px;
+}
+.main{
+    margin: auto;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text11 h2{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.about-text11 h5{
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.about-text11 p{
+    color: white;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.button{
+    padding: 15px 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 25px;
+    border-style: none;
+}
+
+.services{
+    width: 100%;
+    background-color: black;
+    padding: 50px 0px;
+}
+
+.ties h2{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100px;
+    
+}
+
+.card{
+    color: white;
+    width: 300px;
+    height: 200px;
+    margin: 0 10px;
+    border: 1px sold white;
+    padding: 20px 55px;
+    background: #191919;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card h5{
+    font-size: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color: purple;
+}
+
+.btt {
+    padding: 5px 20px;
+    background-color: purple;
+    color: white;
+    border-radius: 25px;
+    border-style: none; 
+    text-decoration: none;
+}
+
+.pra{
+    margin-bottom: 15px;
+}
+
+.ask{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+  background-color: black;
+}
+
+.ask h4{
+    color: white;
+    font-size: 25px;
+}
+
+.bor {
+    border-radius: 30px;
+    padding: 10px 20px;
+    border-style: none;
+    color: white;
+    background-color: purple;
+    margin-top: 10px;
+}
+.npg{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0px;
+    background-color: black;
+}
+
+.deuces h4{
+    color: white;
+    font-size: 20px;
+}
+.deuces p{
+    width: 50%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+               
